@@ -1,0 +1,36 @@
+{
+  "name": "chb-front",
+  "version": "0.0.1",
+  "description": "-",
+  "main": "-",
+  "scripts": {
+    "start": "parcel ./src/index.html -p 8000",
+    "build": "parcel build ./src/index.html --out-dir build/output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "chb-studio",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "styled-classnames": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-provide-modules": "^1.0.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.5.1"
+  }
+}

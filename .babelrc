@@ -1,0 +1,26 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    ["module-alias", [
+      { "src": "./src/utils", "expose": "utils" },
+      { "src": "./src/Root/components", "expose": "components" },
+      { "src": "./src/store", "expose": "store" },
+      { "src": "./src/config", "expose": "config" },
+      { "src": "./src/styles/vars.js", "expose": "styles-vars"},
+      { "src": "./src/styles", "expose": "styles"}
+    ]],
+    ["provide-modules", {
+      "react": {
+        "default": "React",
+        "destructured": ["Component"]
+      },
+      "styled-classnames": {
+        "default": "styled",
+        "destructured": ["css"]
+      },
+      "classnames": {
+        "default": "cn"
+      }
+    }]
+  ]
+}
